@@ -42,12 +42,12 @@ The core mental model: coroutines, the event loop, tasks, and futures.
 
 Build real applications.
 
-| # | Topic |
-|---|-------|
-| 3.1 | Async Networking (`aiohttp`, `httpx`) |
-| 3.2 | Synchronization Primitives (locks, semaphores, queues) |
-| 3.3 | Cancellation and Timeouts |
-| 3.4 | Error Handling and `TaskGroup` |
+| # | Topic | Status |
+|---|-------|--------|
+| 3.1 | [Async Networking (`aiohttp`, `httpx`)](phase-3/01-async-networking/index.md) | done |
+| 3.2 | Synchronization Primitives (locks, semaphores, queues) | — |
+| 3.3 | Cancellation and Timeouts | — |
+| 3.4 | Error Handling and `TaskGroup` | — |
 
 ### Phase 4 — Advanced Asyncio
 
