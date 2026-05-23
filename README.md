@@ -35,7 +35,7 @@ The core mental model: coroutines, the event loop, tasks, and futures.
 | # | Topic | Status |
 |---|-------|--------|
 | 2.1 | [Coroutines and `async` / `await`](phase-2/01-coroutines-async-await/index.md) | done |
-| 2.2 | The Event Loop | — |
+| 2.2 | [The Event Loop](phase-2/02-the-event-loop/index.md) | done |
 | 2.3 | Tasks and Futures | — |
 
 ### Phase 3 — Intermediate Asyncio
