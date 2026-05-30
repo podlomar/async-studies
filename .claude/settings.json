@@ -5,7 +5,6 @@
     "allow": [
       "Bash(cd:*)",
       "Bash(pwd:*)",
-
       "Read",
       "Bash(cat:*)",
       "Bash(type:*)",
@@ -19,12 +18,10 @@
       "Bash(wc:*)",
       "Bash(diff:*)",
       "Bash(echo:*)",
-
       "Bash(mkdir:*)",
       "Bash(cp:*)",
       "Bash(mv:*)",
       "Bash(touch:*)",
-
       "Bash(git status:*)",
       "Bash(git diff:*)",
       "Bash(git log:*)",
@@ -43,7 +40,6 @@
       "Bash(git config --list:*)",
       "Bash(git shortlog:*)",
       "Bash(git rev-parse:*)",
-
       "Bash(npm run:*)",
       "Bash(npm install:*)",
       "Bash(npm ci:*)",
@@ -53,7 +49,6 @@
       "Bash(npm audit:*)",
       "Bash(npx:*)",
       "Bash(node:*)",
-
       "Bash(ps:*)",
       "Bash(top:*)",
       "Bash(df:*)",
@@ -61,11 +56,9 @@
       "Bash(which:*)",
       "Bash(where:*)",
       "Bash(tree:*)",
-
       "Bash(curl:*)",
       "Bash(ping:*)",
       "Bash(nslookup:*)",
-
       "Bash(gh pr view:*)",
       "Bash(gh pr list:*)",
       "Bash(gh pr status:*)",
@@ -77,9 +70,9 @@
       "Bash(gh repo:*)",
       "Bash(gh run:*)",
       "Bash(gh auth status:*)",
-      "Bash(gh workflow:*)"
+      "Bash(gh workflow:*)",
+      "Bash(python3:*)"
     ],
-
     "ask": [
       "Bash(git push:*)",
       "Bash(git pull:*)",
@@ -87,15 +80,11 @@
       "Bash(git rebase:*)",
       "Bash(git tag:*)",
       "Bash(git submodule:*)",
-
       "Bash(npm uninstall:*)",
-
       "Bash(kill:*)",
       "Bash(taskkill:*)",
-
       "Bash(env:*)",
       "Bash(set:*)",
-
       "Bash(gh pr create:*)",
       "Bash(gh pr merge:*)",
       "Bash(gh pr close:*)",
@@ -107,7 +96,6 @@
       "Bash(gh issue edit:*)",
       "Bash(gh issue comment:*)"
     ],
-
     "deny": [
       "Read(**/.env)",
       "Read(**/.env.*)",
@@ -125,7 +113,6 @@
       "Bash(cat **/*.key)",
       "Bash(type **/.env)",
       "Bash(type **/.env.*)",
-
       "Bash(rm -rf:*)",
       "Bash(rm -r:*)",
       "Bash(rmdir:*)",
@@ -134,20 +121,17 @@
       "Bash(del /f:*)",
       "Bash(rd /s:*)",
       "Bash(format:*)",
-
       "Bash(git reset --hard:*)",
       "Bash(git clean -fd:*)",
       "Bash(git clean -fx:*)",
       "Bash(git push --force:*)",
       "Bash(git push -f:*)",
       "Bash(git worktree:*)",
-
       "Bash(sudo:*)",
       "Bash(su:*)",
       "Bash(doas:*)",
       "Bash(runas:*)",
       "Bash(chmod 777:*)",
-
       "Bash(systemctl:*)",
       "Bash(service:*)",
       "Bash(crontab:*)",
@@ -158,7 +142,6 @@
       "Bash(killall:*)",
       "Bash(kill -9:*)",
       "Bash(pkill:*)",
-
       "Bash(ssh:*)",
       "Bash(scp:*)",
       "Bash(rsync:*)",
@@ -166,7 +149,6 @@
       "Bash(nc:*)",
       "Bash(ncat:*)",
       "Bash(telnet:*)",
-
       "Bash(npm install -g:*)",
       "Bash(npm install --global:*)"
     ]
